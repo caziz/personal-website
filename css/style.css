@@ -347,33 +347,28 @@ blockquote {
 .img-btn > img {
 	width: auto;
 	height: auto;
-	height: 25px;
+	height: 24px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	filter: invert(100%);
 }
 .img-btn:hover > img {
 	filter: invert(0%);
 }
-
-/*.img-btn {
-	width: 50px;
-}*/
 .btn {
 	min-width: 160px;
 	max-width: 75%;
 	margin-right: auto;
 	margin-left: auto;
 }
+.img-btn {
+	margin-right: 10px;
 }
 .img-btn,
 .btn {
 	padding: 8px 15px;
 	font-size: 14px;
-	line-height: 1.42857143;
+	line-height: 1.5;
 	text-align: center;
-	margin-right: 10px;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
