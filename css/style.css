@@ -362,6 +362,10 @@ blockquote {
 }*/
 .btn {
 	min-width: 160px;
+	max-width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
 }
 .img-btn,
 .btn {
@@ -458,6 +462,9 @@ blockquote {
 	background-color: #55acee;
 	border-color: #55acee;
 	color: #ffffff;
+}
+.nav-pills > li {
+		max-width: 40%;
 }
 .nav-pills > li > a {
 	padding: 8px 20px;
@@ -726,6 +733,9 @@ blockquote {
 	position: relative;
 	display: block;
 	overflow: hidden;
+	max-width: 75%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .overlay {
 /*	border-top-left-radius: 10px;
